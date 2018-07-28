@@ -13,7 +13,7 @@ import com.alight.springdemo.entity.Customer;
 @Service
 public class CustomerServiceImpl implements CustomerService{
 
-	//Need to inject Customer Dao
+	//Need to inject Customer Dao here
 	@Autowired
 	CustomerDAO customerDAO;
 	
